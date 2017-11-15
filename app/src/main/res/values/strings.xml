@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">HelloAndroid</string>
+    <string name="address">2465 Latham St\nMountain View, CA 94043</string>
+    <string name="phone">Call: 650&#8211;555&#8211;5555</string>
+    <string name="url">Udacity.com</string>
+    <string name="address_land">2465 Latham St\nMountain View\nCA 94043</string>
+    <string name="phone_land">Call:\n650&#8211;555&#8211;5555</string>
+</resources>
