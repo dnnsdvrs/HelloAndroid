@@ -11,11 +11,12 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:adjustViewBounds="true"
+        android:src="@drawable/ic_udacity_logo"
         android:paddingBottom="16dp"
         android:paddingLeft="48dp"
         android:paddingRight="48dp"
         android:paddingTop="16dp"
-        android:src="@drawable/ic_udacity_logo" />
+         />
 
     <ImageView
         android:id="@+id/teachers-pic"
@@ -64,7 +65,7 @@
                 android:text="@string/address"
                 android:textAlignment="center"
                 android:fontFamily="sans-serif-thin"
-                android:textSize="18sp"
+                android:textSize="@dimen/textInfo"
                 android:autoLink="map"
                 android:textColorLink="@color/textgray"/>
         </LinearLayout>
@@ -94,7 +95,7 @@
                 android:layout_gravity="center"
                 android:text="@string/phone"
                 android:fontFamily="sans-serif-thin"
-                android:textSize="18sp"
+                android:textSize="@dimen/textInfo"
                 android:autoLink="phone"
                 android:textColorLink="@color/textgray"/>
 
@@ -126,7 +127,7 @@
                 android:fontFamily="sans-serif-thin"
                 android:text="@string/url"
                 android:textAlignment="center"
-                android:textSize="18sp"
+                android:textSize="@dimen/textInfo"
                 android:autoLink="web"
                 android:textColorLink="@color/textgray"
                 />
