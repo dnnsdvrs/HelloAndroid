@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="textInfo">18sp</dimen>
+    <dimen name="textInfoLand">16sp</dimen>
+    <dimen name="margin_vertical_text">16dp</dimen>
+    <dimen name="margin_text_left">8dp</dimen>
+    <dimen name="margin_vertical_text_land">4dp</dimen>
+    <dimen name="margin_left_text_land">4dp</dimen>
+</resources>

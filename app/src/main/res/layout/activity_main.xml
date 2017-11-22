@@ -45,15 +45,16 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:autoLink="map"
                 android:fontFamily="sans-serif-thin"
                 android:text="@string/address"
                 android:textAlignment="center"
-                android:textColorLink="@color/textgray"
+                android:gravity="center"
                 android:textSize="@dimen/textInfo"
                 android:drawableStart="@drawable/ic_map_marker"
                 android:drawableLeft="@drawable/ic_map_marker"
-                android:layout_marginBottom="@dimen/margin_vertical_text"/>
+                android:layout_marginBottom="@dimen/margin_vertical_text"
+                android:layout_marginTop="@dimen/margin_vertical_text"
+                android:onClick="addressButton"/>
 
         <View style="@style/Divider"/>
 
@@ -61,15 +62,16 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:autoLink="phone"
                 android:fontFamily="sans-serif-thin"
                 android:text="@string/phone"
                 android:textAlignment="center"
-                android:textColorLink="@color/textgray"
+                android:gravity="center"
                 android:textSize="@dimen/textInfo"
                 android:drawableStart="@drawable/ic_phone"
                 android:drawableLeft="@drawable/ic_phone"
-                android:layout_marginBottom="@dimen/margin_vertical_text"/>
+                android:layout_marginBottom="@dimen/margin_vertical_text"
+                android:layout_marginTop="@dimen/margin_vertical_text"
+                android:onClick="phoneButton"/>
 
         <View style="@style/Divider" />
 
@@ -77,15 +79,16 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:autoLink="web"
                 android:fontFamily="sans-serif-thin"
                 android:text="@string/url"
                 android:textAlignment="center"
-                android:textColorLink="@color/textgray"
+                android:gravity="center"
                 android:textSize="@dimen/textInfo"
                 android:drawableStart="@drawable/ic_web"
                 android:drawableLeft="@drawable/ic_web"
-                android:layout_marginBottom="@dimen/margin_vertical_text"/>
+                android:layout_marginBottom="@dimen/margin_vertical_text"
+                android:layout_marginTop="@dimen/margin_vertical_text"
+                android:onClick="webButton"/>
 
     </LinearLayout>
 
@@ -102,25 +105,29 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:clickable="true"
-            android:src="@drawable/ic_facebook" />
+            android:src="@drawable/ic_facebook"
+            android:onClick="facebookButton"/>
 
         <ImageView
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:src="@drawable/ic_github_circle" />
+            android:src="@drawable/ic_github_circle"
+            android:onClick="githubButton"/>
 
         <ImageView
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:src="@drawable/ic_twitter" />
+            android:src="@drawable/ic_twitter"
+            android:onClick="twitterButton"/>
 
         <ImageView
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:src="@drawable/ic_youtube_play" />
+            android:src="@drawable/ic_youtube_play"
+            android:onClick="youtubeButton"/>
 
     </LinearLayout>
 
