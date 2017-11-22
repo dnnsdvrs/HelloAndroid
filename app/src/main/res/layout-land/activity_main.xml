@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
     android:background="@drawable/gradient_rect">
 
     <ImageView
@@ -30,7 +31,7 @@
         android:scaleType="centerInside"
         android:src="@drawable/ic_udacity_logo" />
 
-    <LinearLayout
+    <android.support.v7.widget.CardView
         android:id="@+id/linearLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -41,6 +42,14 @@
         android:background="@drawable/rounded_corners_rect"
         android:clipToPadding="false"
         android:elevation="8dp"
+        android:orientation="horizontal"
+        card_view:cardElevation="12dp"
+        card_view:cardCornerRadius="16dp"
+        >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:paddingVertical="16dp">
 
@@ -100,6 +109,8 @@
             android:onClick="webButton"/>
 
     </LinearLayout>
+
+</android.support.v7.widget.CardView>
 
     <LinearLayout
         android:id="@+id/social"
