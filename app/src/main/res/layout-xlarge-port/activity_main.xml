@@ -96,7 +96,8 @@
                     android:onClick="webButton"
                     android:paddingHorizontal="32dp"
                     android:text="Apply Now"
-                    android:textColor="@color/blue" />
+                    android:textColor="@color/blue"
+                    />
 
 
             </RelativeLayout>
