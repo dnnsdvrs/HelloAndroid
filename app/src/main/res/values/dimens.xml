@@ -6,4 +6,5 @@
     <dimen name="margin_text_left">8dp</dimen>
     <dimen name="margin_vertical_text_land">4dp</dimen>
     <dimen name="margin_left_text_land">4dp</dimen>
+    <dimen name="card_corner_radius">16dp</dimen>
 </resources>

@@ -3,6 +3,18 @@
     <string name="address">2465 Latham St\nMountain View, CA 94043</string>
     <string name="phone">Call: 650&#8211;555&#8211;5555</string>
     <string name="url">Udacity.com</string>
+
+    <!-- Strings specific for the landscape layout -->
     <string name="address_land">2465 Latham St\nMountain View\nCA 94043</string>
     <string name="phone_land">Call:\n650&#8211;555&#8211;5555</string>
+
+    <!-- Strings for the xl layout -->
+    <string name="earn_degree">Earn a Developer Scholarship from Google!</string>
+    <string name="intro_challenge">Open to anyone eager to master web and mobile development skills</string>
+
+    <!--Strings specific for the XL landscape laypout -->
+    <string name="phone_xl">650&#8211;555&#8211;5555</string>
+    <string name="call_us_xl">Call us!</string>
+    <string name="visit_us_xl">Visit us!</string>
+    <string name="more_info_xl">More info:</string>
 </resources>
